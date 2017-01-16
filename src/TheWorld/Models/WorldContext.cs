@@ -24,7 +24,7 @@ namespace TheWorld.Models
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer(_config["ConnectionStrings:WorldContextConnection:"]);
+            optionsBuilder.UseSqlServer(_config["ConnectionStrings:WorldContextConnection"]);
         }
     }
 }
